@@ -79,6 +79,10 @@ for(let i = 0; i < fibonacciNumbers.length; i++){
 // Challenge 7
 // Make a NEW array with 5 values of your choice, using the same syntax as the array creation from the previous 6 challenges; that is, every value should be placed within the square brackets.  Now console.log out each value individually.
 
+const gamess = ['1', '2', '3', '4', '5']
+for(let i = 0; i< games.length; i++){
+    // console.log(games[i])
+}
 
 // Challenge 8
 // Make a new EMPTY array and fill it with five values of your choice using BOTH .push AND .unshift, and then console.log out each value individually.
