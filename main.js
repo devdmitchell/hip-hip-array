@@ -24,13 +24,16 @@ const students = [
 ];
 
 for(let i = 0; i < students.length; i ++){
-  console.log(students[i])
+  //console.log(students[i])
 }
 
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last. i--
 const grades = [100, 80, 110, 75, 83, 64];
 
+for(let i = grades.length -1; i >= 0; i --){
+   console.log(grades[i])
+}
 
 // Challenge 3
 // Console.log out only the even numbers in the following array.
